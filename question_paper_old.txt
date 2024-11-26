@@ -1,0 +1,86 @@
+**DR. BABASAHEB AMBEDKAR TECHNOLOGICAL UNIVERSITY, LONERE**
+**Regular/Supplementary Winter Examination – 2024**
+
+**Course:** Computer Engineering
+**Subject Code & Name:** BTCOC503: Software Engineering
+**Branch:** Computer Engineering
+**Semester:** V
+
+**Time:** 3 Hours                                                                        **Max. Marks:** 80
+
+**Instructions:**
+1. Attempt all questions.
+2. Figures to the right indicate full marks.
+3. Assume suitable data if necessary.
+
+
+**Q.1 (Multiple Choice Questions):** Choose the correct option for the following. (1 mark each)
+
+1. Which of the following is NOT a typical stage in the software development life cycle (SDLC)? (1)
+    a) Requirements gathering  b) Design  c) Testing  d) Marketing
+
+2. A software requirements specification (SRS) document primarily aims to: (1)
+    a) Detail the coding standards  b) Describe the system's functionalities  c) Plan the project timeline  d) Manage the development team
+
+3.  What is a use case primarily used for? (1)
+    a) Describing the system's architecture  b) Defining user interactions with the system  c) Specifying database schema  d) Managing project risks
+
+4.  Which elicitation technique involves observing users in their natural work environment? (1)
+    a) Interviews  b) Surveys  c) Prototyping  d) Ethnographic studies
+
+5.  What is the purpose of requirements validation? (1)
+    a) To ensure the requirements are feasible  b) To elicit requirements from stakeholders  c) To verify the requirements meet user needs  d) To manage changes in requirements
+
+6.  Which of the following is a crucial aspect of requirements management? (1)
+    a) Ignoring stakeholder feedback  b) Tracking changes and their impact  c) Avoiding version control  d) Limiting communication
+
+7.  What does UML stand for? (1)
+    a) Unified Modeling Language  b) Universal Modeling Logic  c) User-Managed Library  d) Unified Management Language
+
+8.  Which model is best suited for visualizing the flow of data within a system? (1)
+    a) Class diagram  b) Data flow diagram  c) Use case diagram  d) State diagram
+
+9. A functional requirement describes: (1)
+    a) The system's non-functional characteristics  b) What the system should do  c) How the system should be built  d) The system's performance constraints
+
+10. A non-functional requirement describes: (1)
+    a) The system's features  b) How the system should be used  c) The system's quality attributes  d) The system's data structures
+
+11. What is the purpose of a prototype? (1)
+    a) To replace the final product  b) To gather feedback and validate requirements  c) To finalize the design immediately  d) To avoid user involvement
+
+12.  A good SRS should be: (1)
+    a) Ambiguous and difficult to understand  b) Unclear and incomplete  c) Consistent and unambiguous  d) Difficult to modify
+
+
+**Q.2:** Explain the following:
+
+A) Define requirements engineering.  Describe the various phases involved in the requirements engineering process. (6)
+B)  Compare and contrast different requirements elicitation techniques, such as interviews, questionnaires, and prototyping.  Discuss their strengths and weaknesses. (6)
+
+
+**Q.3:**  Answer the following:
+
+A) What is a Software Requirements Specification (SRS) document? Explain the key components of a well-structured SRS document and their importance. (6)
+B) Discuss the importance of requirements validation and verification in the software development lifecycle. Describe various techniques used for requirements validation. (6)
+
+
+**Q.4:** Solve any TWO of the following:
+
+A) Explain the concept of context modeling in system modeling.  Illustrate with a suitable example. (6)
+B) Describe different types of interaction models used in software development. Provide examples of each type. (6)
+C)  Explain the purpose and use of behavioral modeling in software development. Discuss different techniques used for behavioral modeling. (6)
+
+
+**Q.5:** Solve any TWO of the following:
+
+A)  What are structural models?  Explain the use of class diagrams in representing the static structure of a system. (6)
+B)  Discuss the importance of model-driven architecture (MDA) in software development. Explain its benefits and limitations. (6)
+C)  Explain the concept of system architecture and its role in software development. Describe different architectural styles. (6)
+
+
+**Q.6:** Solve any TWO of the following:
+
+A) Explain the concept of requirements traceability and its importance in software development. (6)
+B) Describe the various techniques used for requirements management, including change management and version control. (6)
+C) Discuss the challenges in requirements engineering and suggest strategies to mitigate these challenges. (6)

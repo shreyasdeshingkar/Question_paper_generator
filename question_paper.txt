@@ -1,0 +1,75 @@
+**DR. BABASAHEB AMBEDKAR TECHNOLOGICAL UNIVERSITY, LONERE**
+**Regular/Supplementary Winter Examination – 2024**
+
+**Course:** Computer Engineering
+**Subject Code & Name:** BTCOC503: Software Engineering
+**Branch:** Computer Engineering
+**Semester:** V
+
+**Time:** 3 Hours                                                                     **Max. Marks:** 80
+
+**Instructions:**
+1. All questions are compulsory.
+2. Figures to the right indicate full marks.
+3. Assume suitable data if necessary.
+
+
+**Q.1 (Multiple Choice Questions):** Choose the correct option for each of the following. (1 mark each)
+
+1.  Which of the following is NOT a key characteristic of good software requirements?
+    a) Unambiguous      b) Complete     c) Subjective     d) Consistent (1)
+2.  Requirements elicitation involves:
+    a) Only writing code  b) Gathering information from stakeholders c) Only testing the software d) Designing the database (1)
+3.  A software requirements specification (SRS) document primarily serves to:
+    a) Guide the testing team b) Document the software's design  c) Define what the software should do d) Explain how the software will be built (1)
+4.  What is a use case?
+    a) A type of database b) A sequence of actions performed by a user c) A software testing method d) A programming language (1)
+5.  Which process ensures that the requirements are understood by all stakeholders?
+    a) Requirements Validation b) Requirements Management c) Requirements Analysis d) Requirements Elicitation (1)
+6.  What is the purpose of requirements validation?
+    a) To gather requirements b) To verify that requirements are correct, consistent, and complete c) To manage changes to requirements d) To elicit requirements from stakeholders (1)
+7.  Which model is used to represent the interaction between the system and its environment?
+    a) Structural Model b) Behavioral Model c) Context Model d) Interaction Model (1)
+8.  What does UML stand for?
+    a) Unified Modeling Language b) Universal Modeling Language c) User Modeling Language d) Unified Management Language (1)
+9.  Which diagram is used to show the static structure of a system?
+    a) Sequence Diagram b) State Diagram c) Class Diagram d) Activity Diagram (1)
+10. A good software requirements specification should be:
+     a) Vague and open to interpretation b) Precise and unambiguous c) Short and concise, regardless of complexity d) Written only by developers (1)
+11.  Requirements traceability is important for:
+      a) Managing changes and impacts b) Improving code quality c) Only for testing purposes d) Only for documentation (1)
+12.  What is the main goal of requirements management?
+      a) To avoid changes b) To control and track changes c) To ignore stakeholder input d) To delay the project (1)
+
+
+**Q.2:** Explain the following:
+
+A)  Describe the different types of software requirements (functional and non-functional) with suitable examples. (6)
+B)  Discuss the importance of a well-defined software requirements specification (SRS) document in the software development lifecycle.  (6)
+
+
+**Q.3:**  Answer the following:
+
+A)  Explain the process of requirements elicitation. Discuss at least three different elicitation techniques. (6)
+B)  Describe the various techniques used for requirements validation and verification. (6)
+
+
+**Q.4:** Solve any TWO of the following:
+
+A)  Explain the concept of context modeling and its importance in system design.  (6)
+B)  Describe different types of interaction diagrams used in UML, providing examples for each. (6)
+C)  Illustrate the use of structural models (e.g., class diagrams) in representing the static structure of a system. (6)
+
+
+**Q.5:** Solve any TWO of the following:
+
+A)  Explain the concept of behavioral modeling and its significance in software development. (6)
+B)  Describe different types of behavioral diagrams used in UML, providing examples for each. (6)
+C)  Discuss the advantages and disadvantages of using model-driven development. (6)
+
+
+**Q.6:** Solve any TWO of the following:
+
+A)  What are the key challenges in requirements management, and how can these be addressed? (6)
+B)  Explain the importance of requirements traceability in software development. (6)
+C)  Discuss the role of tools and techniques in effective requirements management. (6)
