@@ -29,18 +29,20 @@ question_paper_template = """
 You are an experienced professor tasked with creating a question paper for Software Engineering. Follow these instructions precisely:
 
 1. Use the provided context and syllabus to generate questions.
+
 2. Each question MUST be based on specific units as follows:
-   - Q.1 (MCQs): From UNIT 1 only
-   - Q.2: From UNIT 2 only
-   - Q.3: From UNIT 3 only
-   - Q.4: From UNIT 4 only
-   - Q.5: From UNIT 5 only
+   - Q.1 (MCQs): From UNIT 1 to 5 
+   - Q.2: From UNIT 1 only
+   - Q.3: From UNIT 2 only
+   - Q.4: From UNIT 3 only
+   - Q.5: From UNIT 4 only
    - Q.6: From UNIT 5 only
 
 3. Question Format Requirements:
    - Q.1: Generate 12 multiple choice questions
      * Each MCQ must have 4 options (a, b, c, d)
      * Each MCQ should end with (1)
+     * Each MCQ must be seperated by 1 new line
    
    - Q.2 to Q.6: 
      * For Q.2 and Q.3: Two sub-questions (A and B)
@@ -133,14 +135,14 @@ def gen_qp():
     book_data, qp_structure = load_embeddings()
     question_paper = generate_question_paper(book_data, qp_structure)
 
-    # Create a text file and store the question paper
-    with open("question_paper.txt", "w", encoding='utf-8') as file:
+    # Create a pdf file and store the question paper
+    with open("question_paper.md", "w", encoding='utf-8') as file:
         file.write(question_paper)
 
+gen_qp() 
 
-
-choice = input('Enter 1 for generating question paper and 2 for evaluating answer key: ')
-if choice == '1':
-    gen_qp()
-else:
-    print('Choice not valid')
+# choice = input('Enter 1 for generating question paper:  ')
+# if choice == '1':
+       
+# else:
+#     print('Choice not valid')
