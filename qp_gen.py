@@ -15,7 +15,7 @@ load_dotenv()
 os.environ['GOOGLE_API_KEY'] = os.getenv('API_KEY')
 genai.configure(api_key=os.getenv("API_KEY"))
 
-# Path of vectore database
+# Path of vector database
 DB_FAISS_PATH_DATA = 'vectorstore_data/db_faiss'
 DB_FAISS_PATH_QP = 'vectorstore_Syllabus/db_faiss'
 
@@ -130,16 +130,27 @@ def load_embeddings():
     return book_data, qp_structure
 
 
+import datetime
+
 def gen_qp():
     # Generate question paper
     book_data, qp_structure = load_embeddings()
     question_paper = generate_question_paper(book_data, qp_structure)
 
-    # Create a pdf file and store the question paper
-    with open("question_paper.md", "w", encoding='utf-8') as file:
+    # Create directory if it doesn't exist
+    os.makedirs("model_question_paper", exist_ok=True)
+    
+    # Generate a unique filename using timestamp
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"model_question_paper/question_paper_{timestamp}.md"
+    
+    # Create a markdown file and store the question paper
+    with open(filename, "w", encoding='utf-8') as file:
         file.write(question_paper)
 
-gen_qp() 
+gen_qp()
+
+ 
 
 # choice = input('Enter 1 for generating question paper:  ')
 # if choice == '1':
